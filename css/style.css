@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+
+
+/* SIDEBAR */
+
+.sidebar {
+    width: 230px;
+    height: 100vh;
+    background-color: #1b7f83;
+    padding: 20px;
+}
+
+
+.sidebar h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/* BOTONES */
+
+.sidebar button {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 12px;
+    border: none;
+    border-radius: 15px;
+    background-color: #15565a;
+}
+
+
+.sidebar button a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+/* CONTENIDO */
+
+main {
+    padding: 40px;
+}
+
+@view-transition {
+    navigation: auto;
+}
