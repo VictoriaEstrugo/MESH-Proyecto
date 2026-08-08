@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -12,10 +14,9 @@ body {
     background-color: #f3f5f8;
 }
 
-/* SIDEBAR (Panel Flotante) */
 .sidebar {
     width: 260px;
-    background-color:#e3f8ef;
+    background-color:#71c4b6;
     border-radius: 28px;
     padding: 24px 16px;
     display: flex;
@@ -25,12 +26,13 @@ body {
 }
 
 .sidebar h2 {
-    color: #2d644b;
+    color:#26544c;
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 1px;
     margin: 0 0 24px 12px;
     padding-left: 8px;
+    font-family: 'Fredoka', sans-serif;
 }
 
 /* LISTA DE NAVEGACIÓN Y BOTONES */
@@ -61,16 +63,20 @@ body {
     box-sizing: border-box;
     transition: all 0.2s ease;
 }
+.sidebar button a i {
+    width: 20px;
+    height: 20px;
+}
 
 /* Estado al pasar el cursor */
 .sidebar button a:hover {
     background-color: rgba(255, 255, 255, 0.08);
-    color: #a7a7a7;
+    color: #ffffff;
 }
 
 /* Botón Activo (Página seleccionada) */
 .sidebar button a.active {
-    background-color: #2E9D7F;
+    background-color: #22715c;
     color: #ffffff;
     font-weight: 600;
 }
