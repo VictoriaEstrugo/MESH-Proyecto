@@ -1,42 +1,117 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>MESH - Inicio</title>
-    <link rel="stylesheet" href="../css/style.css">
+
+    <link class="css-path" rel="stylesheet" href="../css/style.css">
+
     <meta name="view-transition" content="same-origin">
 </head>
 
 <body>
 
+    <!-- SIDEBAR -->
     <div class="sidebar">
-    <h2>MESH</h2>
 
-    <button>
-        <a href="inicio.html" class="active">
-            <i data-lucide="house"></i>
-            Inicio
-        </a>
-    </button>
+        <h2>MESH</h2>
 
-    <button><a href="paciente.html">Paciente</a></button>
-    <button><a href="historial.html">Historial</a></button>
-    <button><a href="registros.html">Registros</a></button>
-    <button><a href="graficos.html">Gráficos</a></button>
-    <button><a href="archivos.html">Archivos</a></button>
-    <button><a href="recordatorios.html">Recordatorios</a></button>
-    <button><a href="colaboradores.html">Colaboradores</a></button>
-    <button><a href="configuracion.html">Configuración</a></button>
-</div>
+        <button><a href="inicio.html" class="active">Inicio</a></button>
+        <button><a href="paciente.html">Paciente</a></button>
+        <button><a href="historial.html">Historial</a></button>
+        <button><a href="registros.html">Registros</a></button>
+        <button><a href="graficos.html">Gráficos</a></button>
+        <button><a href="archivos.html">Archivos</a></button>
+        <button><a href="recordatorios.html">Recordatorios</a></button>
+        <button><a href="colaboradores.html">Colaboradores</a></button>
+        <button><a href="configuracion.html">Configuración</a></button>
+
+    </div>
 
 
+    <!-- CONTENIDO PRINCIPAL -->
     <main>
-        <h1 style="view-transition-name: titulo-seccion;">Inicio</h1>
+
+        <!-- ENCABEZADO -->
+        <section class="inicio-header">
+
+            <div>
+                <h1>¡Hola, Paciente!</h1>
+                <p>Resumen del perfil</p>
+            </div>
+
+            <div class="inicio-icons">
+                <button>🔔</button>
+                <button>👤</button>
+            </div>
+
+        </section>
+
+
+        <!-- RESUMEN -->
+       <section class="resumen">
+
+    <div class="tarjeta">
+        <h3>Calidad del sueño</h3>
+        <p>(Información y gráfico)</p>
+    </div>
+
+    <div class="tarjeta">
+        <h3>Crisis</h3>
+        <p>(Información y gráfico)</p>
+    </div>
+
+    <div class="tarjeta">
+        <h3>Alimentación</h3>
+        <p>--</p>
+    </div>
+
+    <div class="tarjeta">
+        <h3>Estado de ánimo</h3>
+        <p>--</p>
+    </div>
+
+</section>
+
+
+        <!-- INFORMACIÓN INFERIOR -->
+        <section class="inicio-inferior">
+
+            <!-- ÚLTIMOS EVENTOS -->
+            <div class="panel">
+
+                <h2>Últimos eventos</h2>
+
+                <p>Hoy - 08:00 - Medicación</p>
+                <p>Hoy - 10:30 - Desayuno</p>
+                <p>Hoy - 13:00 - Registro</p>
+                <p>Hoy - 22:30 - Sueño</p>
+
+                <button>Ver todos</button>
+
+            </div>
+
+
+            <!-- RECORDATORIOS -->
+            <div class="panel">
+
+                <h2>Recordatorios próximos</h2>
+
+                <p>13:00 - Almuerzo</p>
+                <p>17:00 - Actividad</p>
+                <p>20:00 - Medicación</p>
+
+                <button>Ver todos</button>
+
+            </div>
+
+        </section>
+
     </main>
-<script src="https://unpkg.com/lucide@latest"></script>
-<script>
-    lucide.createIcons();
-</script>
+
 </body>
+
 </html>
