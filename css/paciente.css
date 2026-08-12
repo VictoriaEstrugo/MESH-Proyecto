@@ -1,0 +1,104 @@
+/* FICHA DE DATOS PACIENTE */
+main h1 {
+    margin-top: 0;
+    color: #1a2b3c;
+    font-size: 28px;
+    margin-bottom: 5px;
+    
+}
+.ficha-acciones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+.btn-editar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #71c4b6;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-editar:hover {
+    background-color: #22715c;
+}
+
+.datos-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.tarjeta-dato {
+    background-color: white;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.tarjeta-dato.full-width {
+    grid-column: span 2;
+}
+
+.tarjeta-dato .label {
+    font-size: 15px;
+    color: #000000;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.tarjeta-dato .valor {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a2b3c;
+}
+.ficha-acciones h2 {
+    color: #26544c;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.inicio-header p {
+    margin: 5px 0 0;
+    color: #6b7280;
+    margin-bottom: 5px;
+}
+.inicio-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* PERFIL Y FOTO DEL PACIENTE */
+.paciente-perfil {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.paciente-foto {
+    width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.paciente-nombre {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1a2b3c;
+}

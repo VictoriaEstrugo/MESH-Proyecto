@@ -7,6 +7,7 @@
     <title>MESH - Paciente</title>
 
     <link class="css-path" rel="stylesheet" href="../css/style.css">
+    <link class="css-path" rel="stylesheet" href="../css/paciente.css">
     <meta name="view-transition" content="same-origin">
 </head>
 
@@ -39,11 +40,18 @@
             <div>
                 <h1>Ficha del Paciente</h1>
                 <p>Información general y de contacto</p>
+                <div class="paciente-perfil">
+                    <img src="https://cdn-icons-png.flaticon.com/512/9187/9187604.png" class="paciente-foto">
+                    <span class="paciente-nombre">*Nombre del Paciente*</span>
+                </div>
             </div>
 
-            <div class="inicio-icons">
-                <button><i class="fa-solid fa-bell"></i></button>
-                <button><i class="fa-solid fa-circle-user"></i></button>
+            
+            <!-- Encabezado con Botón de Editar -->
+            <div class="ficha-acciones">
+                <button class="btn-editar">
+                    <i class="fa-solid fa-pen-to-square"></i> Editar ficha de datos
+                </button>
             </div>
 
         </section>
@@ -51,14 +59,6 @@
 
         <!-- CONTENIDO FICHA DE DATOS -->
         <section class="ficha-paciente-container">
-
-            <!-- Encabezado con Botón de Editar -->
-            <div class="ficha-acciones">
-                <h2>Ficha de datos</h2>
-                <button class="btn-editar">
-                    <i class="fa-solid fa-pen-to-square"></i> Editar ficha de datos
-                </button>
-            </div>
 
             <!-- Grilla con los datos según el mapa de navegación -->
             <div class="datos-grid">
