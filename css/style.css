@@ -25,6 +25,7 @@ color:#22715c;
     flex-direction: column;
     justify-content: space-between;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    height: 105vh;
 }
 
 .sidebar h2 {
@@ -82,8 +83,11 @@ color:#22715c;
     transition: all 0.2s ease;
 }
 .sidebar button a i {
-    width: 20px;
-    height: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 1;
 }
 
 /* Estado al pasar el cursor */
