@@ -1,0 +1,14 @@
+/* grid principal */
+.dashboard-historial {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+/* colores y cosas de las tarjetas */
+.tarjeta {
+    background-color: white;
+    padding: 22px;
+    border-radius: 18px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}

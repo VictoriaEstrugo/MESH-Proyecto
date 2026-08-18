@@ -19,7 +19,7 @@ main h1 {
     display: flex;
     align-items: center;
     gap: 8px;
-    background-color: #71c4b6;
+    background-color: #a8a8a8;
     color: white;
     border: none;
     padding: 10px 18px;
@@ -30,7 +30,7 @@ main h1 {
 }
 
 .btn-editar:hover {
-    background-color: #22715c;
+    background-color: #000000;
 }
 
 .datos-grid {

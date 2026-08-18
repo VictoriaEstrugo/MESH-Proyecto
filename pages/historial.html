@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MESH - Historial</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link class="css-path" rel="stylesheet" href="../css/historial.css">
+
     <meta name="view-transition" content="same-origin">
 </head>
 
@@ -22,10 +24,61 @@
         <button><a href="colaboradores.html"><i class="fa-solid fa-users"></i>Colaboradores</a></button>
         <button><a href="configuracion.html"><i class="fa-solid fa-gear"></i>Configuración</a></button>
         </div>
-    </div>
-
     <main>
         <h1 style="view-transition-name: titulo-seccion;">Historial</h1>
+
+        <section class="historial">
+            <div class="seleccionar">
+                <div class="select-periodo">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <select id="periodo">
+                        <option value="" disabled selected hidden>Seleccionar fecha</option>                            
+                        <option value="sueno">Sueño</option>
+                        <option value="hoy">Hoy</option>
+                        <option value="7dias">Últimos 7 días</option>
+                        <option value="30dias">Últimos 30 días</option>
+                        <option value="mes">Este mes</option>
+                        <option value="año">Este año</option>
+                    </select>
+                </div>
+                <div class="seleccionar">
+                    <div class="select-categoría">
+                        <select id="categoría">
+                            <option value="" disabled selected hidden>Seleccionar categoría</option>                            <option value="sueno">Sueño</option>
+                            <option value="terapia">Terapia</option>
+                            <option value="alimentacion_digestion">Alimentación y digestión</option>
+                            <option value="medicacion">Medicación</option>
+                            <option value="crisis">Crisis</option>
+                            <option value="estado_animo">Estado de ánimo</option>
+                            <option value="conducta">Conducta</option>
+                            <option value="nivel_energia">Nivel de energía</option>
+                            <option value="salud">Salud</option>
+                            <option value="logros_hitos">Logros/hitos</option>
+                            <option value="nivel_atencion">Nivel de atención</option>
+                        </select>
+                    </div>
+            </div>
+
+        </section>
+
+        <div class="dashboard-historial">
+            <div class="tarjeta tarjeta">
+                <h2>Hoy, (xx/mm)</h2>
+                <p>--:-- - (Tipo de reigstro) - Información</p>
+                <p>--:-- - (Tipo de reigstro) - Información</p>
+                <p>--:-- - (Tipo de reigstro) - Información</p>
+                <button>Ver todos</button>
+            </div>
+
+            <div class="tarjeta tarjeta">
+                <h2>Ayer, (xx/mm)</h2>
+                <p>--:-- - (Tipo de reigstro) - Información</p>
+                <p>--:-- - (Tipo de reigstro) - Información</p>
+                <p>--:-- - (Tipo de reigstro) - Información</p>
+                <button>Ver todos</button>
+            </div>
+
+        </div>
     </main>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
