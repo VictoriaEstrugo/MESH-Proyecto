@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+  }
+
+h2{
+    text-align: center;
+    color:rgb(141, 140, 140);
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    border: rgb(204, 204, 204) solid 1px;
+    width: 400px; 
+    height: auto;
+}
+
+.botones-inicio {
+    display: grid;
+    grid-template-columns: 250px 250px;  /* 2 columnas de 150px de ancho cada una */
+    justify-content: center;
+    gap: 15px;               /* Distancia entre botones */
+    margin-top: 30px;
+}
+
+button{
+    background-color: rgb(168, 167, 167);
+    color: rgb(0, 0, 0);
+}

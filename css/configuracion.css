@@ -1,0 +1,38 @@
+body {
+    display: flex;
+}
+
+.configuracion-grid {
+    display: grid;
+    /* barra ocupa 5 partes y el botón 1 parte */
+    grid-template-columns: 5fr 1fr; 
+    gap: 25px 20px; 
+    max-width: 100%;
+    width: 100%;
+}
+
+.barra-texto {
+    background-color: #dcdcdc;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border-radius: 4px;
+}
+
+.barra-texto p {
+    margin: 0;
+    color: #333;
+    font-size: 14px;
+}
+
+.btn-flecha {
+    background-color: #dcdcdc;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
